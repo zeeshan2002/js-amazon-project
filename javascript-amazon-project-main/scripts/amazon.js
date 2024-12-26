@@ -1,6 +1,6 @@
 // import { cart, addToCart, cartQuantity } from '../data/cart.js';   OR
 import * as cartModule from '../data/cart.js';
-import {product} from '../data/products.js';
+import { product } from '../data/products.js';
 
 let productHtml = '';
 product.forEach((product) => {
