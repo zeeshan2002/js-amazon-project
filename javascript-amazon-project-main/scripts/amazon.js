@@ -55,9 +55,9 @@ product.forEach((product) => {
         </div>
     `;
 }); 
-
+// to display all product on web page
 document.querySelector('.js-products-grid').innerHTML = productHtml;
-
+// to add product to cart
 document.querySelectorAll('.js-add-to-cart')
     .forEach((button) => {
         button.addEventListener('click', () => {
